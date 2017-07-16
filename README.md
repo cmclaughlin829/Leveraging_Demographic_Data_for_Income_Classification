@@ -31,28 +31,28 @@ Numerical formatting was limited to standardization of features and was only uti
 
 The models were then evaluated using all available predictor variables.  The scikit-learn library was utilized for each model.  For simplicity and consistency all models were compared by mean cross validation scores.  Additional model metrics can be found in the accompanying jupyter notebook.
 
-##### Decision Tree
+#### Decision Tree
 Resulted in a mean cross validation score of approximately 0.8507
 
-##### Random Forest
+#### Random Forest
 Resulted in a mean cross validation score of approximately 0.8477
 
-##### Support Vector Machine (Linear Kernal)
+#### Support Vector Machine (Linear Kernal)
 Resulted in a mean cross validation score of approximately 0.8469
 
-##### Support Vector Machine (Polynomial Kernal)
+#### Support Vector Machine (Polynomial Kernal)
 Resulted in a mean cross validation score of approximately 0.8494
 
-##### Support Vector Machine (RBF Kernal)
+#### Support Vector Machine (RBF Kernal)
 Resulted in a mean cross validation score of approximately 0.7510
 
-##### Logistic Regression
+#### Logistic Regression
 Resulted in a mean cross validation score of approximately 0.8478
 
-##### Ensemble utilizing hard voting (composed of Logistic Regression, Linear Support Vector Machine, and Decision Tree)
+#### Ensemble utilizing hard voting (composed of Logistic Regression, Linear Support Vector Machine, and Decision Tree)
 Resulted in a mean cross validation score of approximately 0.8491
 
-##### Gradient Boosting
+#### Gradient Boosting
 Resulted in a mean cross validation score of approximately 0.8614
 
 ### Final Model

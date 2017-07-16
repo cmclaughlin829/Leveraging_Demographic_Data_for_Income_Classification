@@ -4,7 +4,7 @@ Demographic data has been obtained by an advertising agency.  In order to person
 This is an open-ended classification project for the Data Science program at [K2 Data Science](http://k2datascience.com).
 
 ### Assumptions and Approach
-Data for this project was obtained from the UCI  [Machine Learning Repository ](http://www.basketball-reference.com/leagues/NBA_2017_per_game.html) of the University of California, Irvine.  The data was already divided into training and test sets.  The original data extraction was completed by Barry Becker using the 1994 Census database.  Records were extracted using the following conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1)&& (HRSWK>0))
+Data for this project was obtained from the [Machine Learning Repository ](http://www.basketball-reference.com/leagues/NBA_2017_per_game.html) of the University of California, Irvine.  The data was already divided into training and test sets.  The original data extraction was completed by Barry Becker using the 1994 Census database.  Records were extracted using the following conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1)&& (HRSWK>0))
 
 ### Cleaning the Data
 The training data set contained 32,561 records and 15 features.  A list of features and their descriptions can be found on the UCI website.

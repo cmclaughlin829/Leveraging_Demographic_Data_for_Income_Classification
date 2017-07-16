@@ -78,7 +78,7 @@ It is clear that the model was slightly over-fit.  This is likely a result of cl
 ### Addressing Training Set Class Imbalance
 As shown above, if class imbalance is not accounted for prior to training, the model tends to favor a prediction of <=$50K.
 
-Depending on the priority of our advertisement, it may be advantageous for our model to perform this way.  If we are interested in capturing the all users who may fit into the category of <=$50K and are less concerned with misclassification of users with higher salaries, we could leave the model as-is.  However, addressing this imbalance will allow the model to not only perform better with salaries >$50K, but it will likely lead to a more robust model overall. To achieve this goal, the model was re-trained with a sample weight of 3 applied to all samples with a salary >$50K.
+Depending on the priority of our advertisement, it may be advantageous for our model to perform this way.  If we are interested in capturing all users who fit into the category of <=$50K and are less concerned with misclassification of users with higher salaries, we could leave the model as-is.  However, addressing this imbalance will allow the model to not only perform better with salaries >$50K, but it will likely lead to a more robust model overall. To achieve this goal, the model was re-trained with a sample weight of 3 applied to all samples with a salary >$50K.
 
 ### Balanced Model Test Data Performance
 The confusion matrix, ROC curve and classification report for the balanced model are provided below.  Labels of 0 represent salaries <=$50K while labels of 1 represent salaries >$50K.
